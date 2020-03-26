@@ -11,7 +11,11 @@ Le script permet via `on|true` et `off|false` d'activer automatiquement [Xdebug]
 ## Installation
 
 ```
-curl -L https://raw.githubusercontent.com/gemy-athena/xdebug-osx/master/debug > /usr/local/bin/xdebug-toggle
+curl -L https://raw.githubusercontent.com/gemy-athena/xdebug-osx/master/debug > /usr/local/bin/debug
+```
+et/ou
+```
+curl -L https://raw.githubusercontent.com/gemy-athena/xdebug-osx/master/xdebug-toggle > /usr/local/bin/xdebug-toggle
 ```
 
 ## Rendre `xdebug-toggle` éxécutable
@@ -33,7 +37,7 @@ debug true|false --no-server-restart # toggles xdebug sans redémarrer apache ou
 
 ## Ressources
 
-* [wOOfz](https://github.com/w00fz/xdebug-osx)
+* [w00fz](https://github.com/w00fz/xdebug-osx)
 * [xdebug](http://xdebug.org/)
 * [brew](http://brew.sh/)
 * [grav](http://getgrav.org/)
