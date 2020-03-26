@@ -1,5 +1,7 @@
 # Xdebug Toggler pour MACOS
 
+Merci a [w00fz](https://github.com/w00fz/xdebug-osx) !
+
 ![](screenshot.png "Example")
 
 Le script permet via `on|true` et `off|false` d'activer automatiquement [Xdebug][xdebug] si l'installation des différentes version de PHP on était faites [sphp](https://github.com/conradkleinespel/sphp-osx) en suivant les tutos suivant :
@@ -32,6 +34,7 @@ debug true|false --no-server-restart # toggles xdebug sans redémarrer apache ou
 ## License
 [LICENSE](LICENSE)
 
+[MASTER]: https://github.com/w00fz/xdebug-osx
 [xdebug]: http://xdebug.org/
 [brew]: http://brew.sh/
 [grav]: http://getgrav.org/
