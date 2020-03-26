@@ -41,11 +41,11 @@ if [ ! -f "$extension_dir"/xdebug.so ]; then
             STATUS="disabled"
         fi
 
-        if [ $# -ge 1 ] && [ "$command" == "on" ] || [ "$command" == "off" ]; then
-            if [ "$command" == "on" ]; then
+        if [ $# -ge 1 ] && [ "$command" == "on" ] || [ "$command" == "off" ] || [ "$command" == "true" ] || [ "$command" == "false" ]; then
+            if [ "$command" == "on" ] || [ "$command" == "true" ]; then
                 mv "$xdebug_conf.disabled" "$xdebug_conf" 2> /dev/null
                 STATUS="enabled"
-            elif [ "$command" == "off" ]; then
+            elif [ "$command" == "off" ] || [ "$command" == "false" ]; then
                 mv "$xdebug_conf" "$xdebug_conf.disabled" 2> /dev/null
                 STATUS="disabled"
             fi
