@@ -31,13 +31,12 @@ debug on|off --no-server-restart     # toggles xdebug sans redémarrer apache ou
 debug true|false --no-server-restart # toggles xdebug sans redémarrer apache ou php-fpm
 ```
 
-## License
-[LICENSE](LICENSE)
+## Ressources
 
-[MASTER]: https://github.com/w00fz/xdebug-osx
-[xdebug]: http://xdebug.org/
-[brew]: http://brew.sh/
-[grav]: http://getgrav.org/
-[tutorial-1]: http://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions
-[tutorial-2]: http://getgrav.org/blog/mac-os-x-apache-setup-mysql-vhost-apc
-[sphp]: https://github.com/conradkleinespel/sphp-osx
+* [wOOfz](https://github.com/w00fz/xdebug-osx)
+* [xdebug](http://xdebug.org/)
+* [brew](http://brew.sh/)
+* [grav](http://getgrav.org/)
+* [tutorial-1](http://getgrav.org/blog/mac-os-x-apache-setup-multiple-php-versions)
+* [tutorial-2](http://getgrav.org/blog/mac-os-x-apache-setup-mysql-vhost-apc)
+* [sphp](https://github.com/conradkleinespel/sphp-osx)
